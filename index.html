@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+    <title>4P Business</title>
+    <link rel="shortcut icon" href="icon.ico" />
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+          var stickyHeaderTop = $('#navbar').offset().top;
+
+          $(window).scroll(function(){
+                  if( $(window).scrollTop() > stickyHeaderTop ) {
+                          $('#navbar').css({position: 'fixed', top: '0px'});
+                          $('#sticky').css('display', 'block');
+                  } else {
+                          $('#navbar').css({position: 'static', top: '0px'});
+                          $('#sticky').css('display', 'none');
+                  }
+          });
+      });
+    </script>
+
+  </head>
+  <body>
+    <div id="quem-somos-container" class="header">
+      <div class="header-bar dark-grey-background">
+        <img src="logo.png" class="logo">
+      </div>
+      <div class="header-bar-text dark-grey-background">
+        <div class="quem-somos">
+          <div class="header-text" style="margin-top: 20px;">
+            <div>
+              <p class="super-title-text white-text fat-weight content-title">4Pedros Business</p>
+              <p class="small-title-text white-text thin-weight" style="margin-top: -40px;">QUEM SOMOS?</p>
+            </div>
+          </div>
+          <div>
+            <p class="regular-text white-text thin-weight">
+              Synth polaroid bitters chillwave pickled. Vegan disrupt tousled,
+              Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee church-key roof party.
+              Leggings ethical McSweeney's, normcore you probably haven't heard of them Marfa organic squid.
+              Slow-carb 90's ennui Godard pug asymmetrical, narwhal VHS Tonx High Life.
+              Retro dreamcatcher synth Godard pickled Etsy jean shorts beard.
+            </p>
+            <div class="persons" style="margin-top: 30px;">
+              <div class="">
+                <img src="person-1.png" class="person-img">
+                <img src="person-2.png" class="person-img">
+              </div>
+              <div class="">
+                <img src="person-3.png" class="person-img">
+                <img src="person-4.png" class="person-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="navbar" class="navbar grey-text small-text fat-weight">
+      <div class="navbar-content">
+        <a href="#house-360-container" class="navbar-item-a">
+          <div class="navbar-item border-yellow">
+            <p>HOUSE360</p>
+          </div>
+        </a>
+        <a href="#vending-container" class="navbar-item-a">
+          <div class="navbar-item border-orange">
+            <p>VENDING</p>
+          </div>
+        </a>
+        <a href="#trading-container" class="navbar-item-a">
+          <div class="navbar-item border-red">
+            <p>STONE TRADING</p>
+          </div>
+        </a>
+      </div>
+      <div class="navbar-content">
+        <a href="#quem-somos-container" class="navbar-item-a">
+          <div class="navbar-item border-grey">
+            <p>QUEM SOMOS?</p>
+          </div>
+        </a>
+        <a href="#contactos-container" class="navbar-item-a">
+          <div class="navbar-item border-purple">
+            <p>CONTACTOS</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div id="house-360-container" class="content-container white-background">
+        <div class="content-marker yellow-marker"></div>
+        <div class="content-piece">
+          <div class="content-image-desktop house-360-img"></div>
+          <div class="content-text content-text-right grey-text">
+            <p class="title-text content-title fat-weight">
+              House360
+            </p>
+            <p class="regular-text thin-weight" style="margin-top: -30px;">
+              Hella narwhal Cosby sweater McSweeney's, salvia kitsch before they sold out High Life.
+              Umami tattooed sriracha meggings pickled Marfa Blue Bottle High Life next level four loko PBR.
+              Keytar pickled next level keffiyeh drinking vinegar street art.
+              Art party vinyl Austin, retro whatever keytar mixtape.
+              Pickled ethnic farm-to-table distillery ugh chia.
+              Ethical Odd Future narwhal, mlkshk fap asymmetrical next level High Life literally cred blog.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content-image-mobile house-360-img"></div>
+      <div id="vending-container" class="content-container light-grey-background">
+        <div class="content-piece">
+          <div class="content-text content-text-left grey-text">
+            <p class="title-text content-title fat-weight">
+              Vending
+            </p>
+            <p class="regular-text thin-weight" style="margin-top: -30px;">
+              Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party.
+              Meggings cred before they sold out messenger bag,
+              ugh fashion axe Pitchfork tousled freegan asymmetrical literally twee Thundercats.
+              Whatever Blue Bottle Neutra irony 8-bit. Kogi ethnic ugh fashion axe bicycle rights.
+              Gluten-free Odd Future American Apparel pour-over umami drinking vinegar Truffaut.
+              Selvage sustainable plaid viral salvia readymade, lomo slow-ca.
+            </p>
+          </div>
+          <div class="content-image-desktop vending-img"></div>
+        </div>
+        <div class="content-marker orange-marker"></div>
+      </div>
+      <div class="content-image-mobile vending-img"></div>
+      <div id="trading-container" class="content-container white-background">
+        <div class="content-marker red-marker"></div>
+        <div class="content-piece">
+          <div class="content-image-desktop trading-img"></div>
+          <div class="content-text content-text-right grey-text">
+            <p class="title-text content-title fat-weight">
+              Stone Trading
+            </p>
+            <p class="regular-text thin-weight" style="margin-top: -30px;">
+              Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore.
+              Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.
+              Chillwave craft beer tote bag stumptown quinoa hashtag.
+              Dreamcatcher locavore iPhone chillwave,
+              occupy trust fund slow-carb distillery art party narwhal.
+              Ennui shabby chic Brooklyn,
+              fanny pack direct trade Tumblr tattooed retro polaroid deep v chia vinyl Austin Tonx food truc.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content-image-mobile trading-img"></div>
+    </div>
+
+    <div id="contactos-container" class="footer">
+      <div class="footer-content-map light-grey-background">
+        <div class="footer-content">
+          <div class="footer-content-logo">
+            <img src="logo.png" class="logo">
+            <div class="footer-content-text-desktop light-grey-text medium-text thin-weight">
+              <div class="footer-content-item">
+                <p>PORQUÊ <strong>4PEDROS</strong>?</p>
+                <p>
+                  In hac habitasse platea dictumst.
+                  Vivamus adipiscing fermentum quam volutpat aliquam.
+                  Integer et elit eget elit facilisis tristique.
+                </p>
+              </div>
+              <div class="footer-content-item">
+                <p><strong>ONDE</strong> ESTAMOS?</p>
+                <p>659 Shanahan</p>
+                <p>View Suite 548</p>
+                <p>baylee.lindgren@yahoo.com</p>
+                <p>© 2017 4Pedros lda</p>
+              </div>
+              <div class="footer-content-item">
+                <p>ENTRE EM <strong>CONTACTO</strong>!</p>
+                <a href="#">
+                  <img src="facebook.svg" class="facebook">
+                </a>
+                <a href="#">
+                  <img src="linkedin.svg" class="linkedin" style="margin-left: 20px;">
+                </a>
+              </div>
+            </div>
+            <div class="footer-content-text-mobile light-grey-text medium-text thin-weight">
+              <div class="footer-content-item">
+                <p><strong>ONDE</strong> ESTAMOS?</p>
+                <p>659 Shanahan</p>
+                <p>View Suite 548</p>
+                <p>baylee.lindgren@yahoo.com</p>
+                <p>© 2017 4Pedros lda</p>
+              </div>
+              <div class="footer-content-item">
+                <p>ENTRE EM <strong>CONTACTO</strong>!</p>
+                <a href="#">
+                  <img src="facebook.svg" class="facebook">
+                </a>
+                <a href="#">
+                  <img src="linkedin.svg" class="linkedin" style="margin-left: 20px;">
+                </a>
+              </div>
+              <div class="footer-content-item">
+                <p>PORQUÊ <strong>4PEDROS</strong>?</p>
+                <p>
+                  In hac habitasse platea dictumst.
+                  Vivamus adipiscing fermentum quam volutpat aliquam.
+                  Integer et elit eget elit facilisis tristique.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97475.68919433365!2d-8.486314419371388!3d40.228738841407306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f9144aacd16d%3A0x634564477b42a6b9!2sCoimbra!5e0!3m2!1spt-PT!2spt!4v1502749897579" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-color">
+        <div class="footer-color-div yellow-marker"></div>
+        <div class="footer-color-div orange-marker"></div>
+        <div class="footer-color-div red-marker"></div>
+        <div class="footer-color-div purple-marker"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
